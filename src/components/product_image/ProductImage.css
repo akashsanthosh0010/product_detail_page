@@ -1,0 +1,302 @@
+#row1{
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+.colour-brown{
+    position: relative;
+    display: flex;
+    position: sticky;
+}
+.productdetails{
+    text-align: left;
+    height: 105vh;
+    max-height: 105vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-top: 5px;
+}
+.produtdetails ::-webkit-scrollbar{
+    display: none;
+}
+.flashsale{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem;
+    width: 90%;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkout{
+    margin-top: 2rem;
+    background-color: rgb(235, 235, 235);
+    padding: 0.5rem;
+    width: 70%;
+}
+.deliver{
+    background-color: rgb(235, 235, 235);
+    padding: 0.5rem;
+    width: 70%;
+}
+.intrest-tabby{
+    display: flex;
+    align-items: center;
+}
+.intrest-tamara{
+    display: flex;
+    align-items: center;
+}
+.product-title{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.provider{
+    color: black;
+    font-weight: 450;
+}
+.price{
+    font-size: 22px;
+}
+.old-price{
+    margin-left: 1.5rem;
+    color: rgb(88, 85, 85);
+    text-decoration: line-through;
+}
+.offer{
+    margin-left: 0.5rem;
+    color: rgb(155, 237, 31);
+}
+.new-price{
+    font-weight: bold;
+}
+.select-size{
+    margin-top: 1rem;
+}
+.add-to-bag{
+    border-radius: 8px;
+    background-color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+.icon-bag{
+    margin-left: 15px;
+}
+.varient-button{
+    width: 100px;
+    border-radius: 15%;
+    background-color: black;
+}
+.old_price{
+    color: rgb(192, 186, 186);
+    text-decoration: line-through;
+}
+.varient-button-2{
+    width: 100px;
+    margin-left: 1rem;
+    border-color: black;
+    border-radius: 15%;
+}
+.select-cent{
+    margin-top: 1rem;
+}
+.cent-button{
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: black;
+}
+.cent-button-1{
+    border-radius: 8px;
+    border-color: black;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.cent-button-2{
+    border-radius: 8px;
+    border-color: black;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.ends-in{
+    margin-top: -5px;
+}
+.limited_offer{
+    margin-top: 10px;
+    color: rgb(192, 186, 186);
+}
+.choose-checkout{
+    margin-bottom: -1px;
+    margin-top: -9px;
+    color: black;
+    margin-left: 2rem;
+}
+.pick-from-store{
+    margin-left: 2rem;
+    color: black;
+}
+.tabby{
+    width: 80px;
+    margin-top: 1rem;
+}
+.payment-tabby{
+    color: rgb(93, 88, 88);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.tamara{
+    width: 85px;
+    margin-top: -1rem;
+}
+.payment-tamara{
+    color: rgb(93, 88, 88);
+    margin-left: 0.8rem;
+    margin-top: -1rem;
+}
+.deliver-to-dubai{
+    margin-left: 2rem;
+    color: black;
+}
+.recive-order{
+    margin-left: 2rem;
+    color: black;
+}
+.side-image{
+    width: 50%;
+}
+.main-image{
+    width: 100%;
+    height: auto;
+    background-color: rgb(182, 176, 176);
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0.5rem;
+    max-height: 104vh;
+    height: 104vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: all 0.5s;
+}
+.slider ::-webkit-scrollbar{
+    display: none;
+}
+.slide img{
+    width: 79%;
+    background-color: rgb(182, 176, 176);
+
+}
+.icon-wish{
+    margin-left: 2rem;
+}
+.icon-thunder{
+    margin-left: 0.5rem;
+}
+.icon-cart{
+    margin-right: 1rem;
+}
+.icon-list{
+    margin-right: 1rem;
+}
+.icon-timer{
+    margin-right: 1rem;
+}
+.icon-location{
+    margin-right: 1.1rem;
+}
+.slider-button{
+    height: 40px;
+    width: 40px;
+    background-color: #898585;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.icon-up{
+    rotate: -90deg;
+}
+.icon-down{
+    rotate: 90deg;
+}
+.product-varients{
+    position: relative;
+}
+.slider-up{
+    position: absolute;
+    left: 40%;
+    top: 8px;
+    background-color: #fff;
+}
+.slider-down{
+    position: absolute;
+    left: 40%;
+    bottom: 4px;
+    background-color: #fff;
+}
+
+.count-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border-color: black;
+    border-width: 1.5px;
+    font-size: 22px;
+    color: black;
+}
+.btn-increment{
+    margin-left: 5rem;
+}
+.value{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-width: 1px;
+    color: black;
+}
+.timer{
+    right: 180px;
+}
+.timer2{
+    right: 100px;
+}
+.timer3{
+    right: 20px;
+}
+.timer{
+    bottom: 50%;
+    background-color: rgb(182, 197, 237);
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.timer-row{
+    display: flex;
+    gap: 5px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-size: 10px;
+}
+.times{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
